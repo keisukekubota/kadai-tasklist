@@ -12,8 +12,7 @@
   <div class="col-xs-8">
     <ul class="nav nav-tabs nav-justified">
       <li><a href="#">Tasklists</a></li>
-      <li><a href="#">Followings</a></li>
-      <li><a href="#">Followers</a></li>
+      <%= render 'tasks/tasks', tasks: @tasks, user: @user %>
     </ul>
   </div>
 </div>
